@@ -19,8 +19,6 @@ npm install -g gulp
 
 # If you wanna Gulp to re-build on every change...
 gulp watch
-```
-
 
 ### WTF is ES6?
 Simply, the next version of JavaScript that contains some really cool features. You might check out some of these:
