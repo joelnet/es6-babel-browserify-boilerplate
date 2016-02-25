@@ -1,13 +1,13 @@
 ## ES6 Babel Browserify Boilerplate
 
-This is an boilerplate repo to make it easy to experiment with [ES6]. It's inspired by [es6-browserify-boilerplate](https://github.com/thoughtram/es6-browserify-boilerplate) but uses babel (formerly 6to5) for transpilation which does not depend on any runtime.
+This is an boilerplate repo to make it easy to experiment with [ES6]. It's inspired by [es6-browserify-boilerplate](https://github.com/joelnet/es6-browserify-boilerplate) but uses babel (formerly 6to5) for transpilation which does not depend on any runtime.
 
 
 ### Initial setup
 
 ```bash
 # Clone the repo...
-git clone https://github.com/thoughtram/es6-6to5-browserify-boilerplate.git
+git clone https://github.com/joelnet/es6-6to5-browserify-boilerplate.git
 cd es6-6to5-browserify-boilerplate
 
 # Then, you need to install all the dependencies...
@@ -16,11 +16,6 @@ npm install
 # If you wanna be able to use global commands `karma` and `gulp`...
 npm install -g gulp
 ```
-
-### Running in the browser
-```bash
-gulp build
-gulp serve
 
 # If you wanna Gulp to re-build on every change...
 gulp watch
